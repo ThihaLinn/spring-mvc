@@ -58,7 +58,7 @@ public class InputsController {
 	
 	@GetMapping("matrix/{product}")
 	public String userMatrix(
-			@PathVariable ("pd") String product,
+			@PathVariable  String product,
 			@MatrixVariable ("p") String price,
 			@MatrixVariable ("b") String brand,
 			Model model
