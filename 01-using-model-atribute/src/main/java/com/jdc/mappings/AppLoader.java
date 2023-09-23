@@ -1,4 +1,4 @@
-package com.jdc.mappings;
+ package com.jdc.mappings;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -12,7 +12,7 @@ public class AppLoader extends AbstractAnnotationConfigDispatcherServletInitiali
 	@Override
 	protected Class<?>[] getServletConfigClasses() {
 		// TODO Auto-generated method stub
-		return new Class<?>[] {ServletConfig.class};
+		return new Class<?>[] {RootConfig.class,ServletConfig.class};
 	}
 
 	@Override

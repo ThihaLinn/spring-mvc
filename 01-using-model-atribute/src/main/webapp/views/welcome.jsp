@@ -20,8 +20,10 @@
 			<c:url value="/inputs" var="inputs"></c:url>
 			<a href="inputs">User inputs</a>
 		</li>
-		
-		
+		<li>
+			<c:url value="/course" var="course"></c:url>
+			<a href="${course}">Return model view</a>
+		</li>	
 	</ul>
 
 </body>

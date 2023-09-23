@@ -42,8 +42,8 @@
 			href="${date} ">Date</a></li>
 		<li><c:url value="/inputs/Advance" var="enumLink"></c:url> <a
 			href="${enumLink} ">Using Enum</a></li>
-		<li><c:url value="/inputs/matrix/shoe;price=30k;brand=converse" var="matrixLink"></c:url> <a
-			href="${matrixLink} ">Using matrix</a></li>
+		<li><c:url value="/inputs/matrix/shoe;p=30k;b=converse" var="matrixLink"></c:url> <a
+			href="${matrixLink} ">Using Matrix</a></li>
 		<li><c:url value="/inputs/request?p=jen&w=33&l=41" var="requestParam"></c:url> <a
 		href="${requestParam}">Request Param</a></li>	
 	</ul>
