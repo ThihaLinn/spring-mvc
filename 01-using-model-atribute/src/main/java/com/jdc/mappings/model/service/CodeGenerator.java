@@ -7,10 +7,8 @@ public class CodeGenerator {
 
 	private int id;
 	
-	public int createCode() {
-		
+	public int next() {
 		id++;
-		
 		return id;
 	}
 	

@@ -14,7 +14,29 @@
 
 	<div class="container p-4">
 		<h1>Course-List</h1>
+		
+		<table class="table">
+		<tr>
+			<th>ID</th>
+			<th>Name</th>
+			<th>Level</th>
+			<th>Duration</th>
+			<th>Fees</th>
+		</tr>
+		<c:forEach var="c" items="${list}">
+				<tr>
+					<td>${c.getId()}</td>
+				    <td>${c.getName()}</td>
+					<td>${c.getLevel()}</td>
+					<td>${c.getDuration()}</td>
+					<td>${c.getFees()}</td> 
+				</tr>
+		</c:forEach>
+		
+	</table>
 	</div>
+	
+	
 
 </body>
 </html>
